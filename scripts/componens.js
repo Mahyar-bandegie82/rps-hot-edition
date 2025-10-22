@@ -4,18 +4,16 @@ function display_screens() {
     container.classList.add('container')
     body.append(container)
 
-    const rock_pic = '../assets/rock.png'
-    const scissors_pic = '../assets/scissors.png'
-    const papers_pic = '../assets/papers.png'
+    // const rock_pic = '../assets/rock.png'
+    // const scissors_pic = '../assets/scissors.png'
+    // const papers_pic = '../assets/papers.png'
 
     container.innerHTML = `
         <div class="user-move">
-            <img src="${rock_pic}" alt="">
+            <img alt="">
         </div>
         <p> vs </p>
-        <div class="computer-move">
-            <img src="${papers_pic}" alt="">
-        </div>`;
+        <div class="computer-move"></div>`;
 }
 
 
