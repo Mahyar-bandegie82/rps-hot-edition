@@ -1,0 +1,75 @@
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-move,
+.computer-move {
+    img {
+        width: 150px;
+    }
+
+}
+
+.match-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: blueviolet;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.control {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.control button {
+    background: transparent;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 5px 3px;
+}
+
+.control button {
+    background: transparent;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 5px 3px;
+    box-shadow: 0 0 15px 5px blueviolet;
+    transition: all 0.3s ease;
+}
+
+.control button:active{
+    color: red;
+    border: 2px solid red;
+    box-shadow: 0 0 15px 5px red;
+}
+
+.scores{
+    padding: 20px 0 0 25px;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
