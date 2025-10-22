@@ -1,7 +1,7 @@
 function getRandomInt(min, max) {
     const minCeiled = Math.ceil(min);
     const maxFloored = Math.floor(max);
-    return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
+    return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); 
 }
 
 function status_model() {
@@ -34,6 +34,10 @@ function displayComputerMove() {
     }
 }
 
+function userMove(){
+    //define user move here
+    return null
+}
 const rock = document.querySelector("#rock");
 const scissor = document.querySelector("#scissor");
 const paper = document.querySelector("#paper");
@@ -43,5 +47,6 @@ scissor.addEventListener('click', display);
 
 function display(ki) {
     console.log('h')
-    displayComputerMove()
+    displayComputerMove();
+    userMove();
 }
