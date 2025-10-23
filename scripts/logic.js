@@ -58,6 +58,8 @@ function userMove(choice) {
     else if (choice === "scissor") {
         user_move.innerHTML = `<img src="${scissors_pic}" alt="">`
     }
+
+    display()
 }
 
 
@@ -66,4 +68,3 @@ function display(userchoice) {
     userMove(userchoice);
 }
 
-display()
