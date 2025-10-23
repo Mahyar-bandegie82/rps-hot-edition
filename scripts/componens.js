@@ -9,9 +9,7 @@ function display_screens() {
     // const papers_pic = '../assets/papers.png'
 
     container.innerHTML = `
-        <div class="user-move">
-            <img alt="">
-        </div>
+        <div class="user-move"></div>
         <p> vs </p>
         <div class="computer-move"></div>`;
 }
@@ -36,9 +34,9 @@ function controls(){
     body.append(container)
 
     container.innerHTML = `
-        <button id="rock">rock</button>
-        <button id="paper">paper</button>
-        <button id="scissor">scissor</button>
+        <button class="ctrl-btn" id="rock">rock</button>
+        <button class="ctrl-btn" id="paper">paper</button>
+        <button class="ctrl-btn" id="scissor">scissor</button>
         <button id="reset">reset</button>
     `;
 }
