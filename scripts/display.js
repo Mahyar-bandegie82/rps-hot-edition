@@ -14,9 +14,9 @@ scissor.addEventListener('click', () => display("scissor"));
 
 
 export default function displayComputerMove() {
-    const rock_pic = '../assets/rock.png'
-    const scissor_pic = '../assets/scissors.png'
-    const paper_pic = '../assets/papers.png'
+    const rock_pic = "assets/rock.png"
+    const scissor_pic = "assets/scissors.png"
+    const paper_pic = "assets/papers.png"
 
     const computer_move = document.querySelector(".computer-move")
 
@@ -35,9 +35,9 @@ export default function displayComputerMove() {
 }
 
 function userMove(choice) {
-    const rock_pic = '../assets/rock.png'
-    const scissor_pic = '../assets/scissors.png'
-    const paper_pic = '../assets/papers.png'
+    const rock_pic = "assets/rock.png"
+    const scissor_pic = "assets/scissors.png"
+    const paper_pic = "assets/papers.png"
 
     const user_move = document.querySelector(".user-move");
 
