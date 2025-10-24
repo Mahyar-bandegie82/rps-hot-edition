@@ -48,9 +48,9 @@ function match_score(){
     body.append(container)
 
     container.innerHTML = `
-        <p>wins : <span></span></p>
-        <p>ties : <span></span></p>
-        <p>losses : <span></span></p>
+        <p>wins : <span class="win">0</span></p>
+        <p>ties : <span class="tie">0</span></p>
+        <p>losses : <span class="loss">0</span></p>
     `;
 }
 
