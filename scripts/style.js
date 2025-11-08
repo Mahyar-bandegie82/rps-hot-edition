@@ -66,5 +66,12 @@ function styles() {
         text-transform: uppercase;
         letter-spacing: 2px;
     `;
+    document.querySelector(".auto button").style = `
+        padding: 5px 10px;
+        color: blueviolet;
+        background-color: transparent;
+        border: 2px solid blueviolet;
+        margin: 5px 30px;
+    `
 }
 styles();

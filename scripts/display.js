@@ -34,7 +34,7 @@ export default function displayComputerMove() {
     }
 }
 
-function userMove(choice) {
+export function userMove(choice) {
     const rock_pic = "assets/rock.png"
     const scissor_pic = "assets/scissors.png"
     const paper_pic = "assets/papers.png"
@@ -54,7 +54,7 @@ function userMove(choice) {
 }
 
 
-function display(userchoice) {
+export function display(userchoice) {
     userMove(userchoice);
     logic(userchoice);
 }

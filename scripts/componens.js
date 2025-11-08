@@ -54,7 +54,19 @@ function match_score(){
     `;
 }
 
+function autoPlay(){
+    const body = document.body;
+    const container = document.createElement('div')
+    container.classList.add('auto')
+    body.append(container)
+
+    container.innerHTML = `
+        <button class="auto-play">auto play</button>
+    `
+}
+
 display_screens();
 match_status();
 controls();
 match_score();
+autoPlay()
